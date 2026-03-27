@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /images/
+Allow: /music/
+
+# Sitemap
+Sitemap: https://shriramnavami.srinudesetti.in/sitemap.xml
+
+# Crawl-delay (be polite to crawlers)
+Crawl-delay: 1
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Social media crawlers (for link previews)
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
